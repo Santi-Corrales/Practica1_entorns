@@ -14,8 +14,13 @@ public class practica1_entorns {
 		
 		// User 1 fer la suma dels elements de sumArray
 		
-	
+		int numSuma = 0;
 		
+		for(int i=0; i < sumArray.length; i++) {
+			numSuma += sumArray[i];
+		}
+		
+		System.out.println("El resultado de la suma és: " + numSuma);
 		
 		// User 2 fer la resta dels elements de subArray
 		
