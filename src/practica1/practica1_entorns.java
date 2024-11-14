@@ -24,7 +24,13 @@ public class practica1_entorns {
 		
 		// User 2 fer la resta dels elements de subArray
 		
+		int resultResta = subArray[0];
 		
+		for (int i = 1; i < subArray.length; i++) {
+			   resultResta -= subArray[i];
+		   }
+		
+		System.out.println("El resultado de la resta es: "+ resultResta);
 		
 		// User 3 fer la multiplicació dels elements de prodArray
 		
