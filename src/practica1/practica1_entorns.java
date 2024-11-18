@@ -33,7 +33,16 @@ public class practica1_entorns {
 		System.out.println("El resultado de la resta es: "+ resultResta);
 		
 		// User 3 fer la multiplicació dels elements de prodArray
-		
+ 
+	        int result = 1; 
+	        
+	        for (int num : prodArray) {
+	          
+	        	result *= num; 
+	        }
+	        
+	       System.out.println("El producte dels elements de l'array és: " + result); 
+	     
 	}
 
 }
